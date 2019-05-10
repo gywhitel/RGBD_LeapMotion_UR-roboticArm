@@ -1,0 +1,9 @@
+<launch>
+    <include file="/home/txt/Documents/universal_robot/src/universal_robot/ur3_moveit_config/launch/demo.launch" output = "screen"/>
+
+    <group>
+        <node pkg="leapmotion_control_ur3" name="hand_postion_talk" type="hand_postion_talk" />
+    </group>
+
+
+</launch>
